@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		449216AE21585B9400EB27DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449216AD21585B9400EB27DC /* AppDelegate.swift */; };
-		449216B021585B9400EB27DC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 449216AF21585B9400EB27DC /* GameScene.sks */; };
+		449216B021585B9400EB27DC /* Level-1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 449216AF21585B9400EB27DC /* Level-1.sks */; };
 		449216B221585B9400EB27DC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 449216B121585B9400EB27DC /* Actions.sks */; };
 		449216B421585B9400EB27DC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449216B321585B9400EB27DC /* GameScene.swift */; };
 		449216B621585B9400EB27DC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449216B521585B9400EB27DC /* GameViewController.swift */; };
@@ -19,6 +19,7 @@
 		449216D421585B9600EB27DC /* Orange_TreeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449216D321585B9600EB27DC /* Orange_TreeUITests.swift */; };
 		449216E221585C6B00EB27DC /* Smashing-Things.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 449216E121585C6B00EB27DC /* Smashing-Things.atlas */; };
 		449216E421585E5600EB27DC /* Orange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449216E321585E5600EB27DC /* Orange.swift */; };
+		449216E62158771300EB27DC /* Level-2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 449216E52158771300EB27DC /* Level-2.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,7 @@
 /* Begin PBXFileReference section */
 		449216AA21585B9400EB27DC /* Orange_Tree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orange_Tree.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		449216AD21585B9400EB27DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		449216AF21585B9400EB27DC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		449216AF21585B9400EB27DC /* Level-1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level-1.sks"; sourceTree = "<group>"; };
 		449216B121585B9400EB27DC /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		449216B321585B9400EB27DC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		449216B521585B9400EB27DC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +58,7 @@
 		449216D521585B9600EB27DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		449216E121585C6B00EB27DC /* Smashing-Things.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "Smashing-Things.atlas"; sourceTree = "<group>"; };
 		449216E321585E5600EB27DC /* Orange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orange.swift; sourceTree = "<group>"; };
+		449216E52158771300EB27DC /* Level-2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "Level-2.sks"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +111,8 @@
 			children = (
 				449216E121585C6B00EB27DC /* Smashing-Things.atlas */,
 				449216AD21585B9400EB27DC /* AppDelegate.swift */,
-				449216AF21585B9400EB27DC /* GameScene.sks */,
+				449216AF21585B9400EB27DC /* Level-1.sks */,
+				449216E52158771300EB27DC /* Level-2.sks */,
 				449216B121585B9400EB27DC /* Actions.sks */,
 				449216E321585E5600EB27DC /* Orange.swift */,
 				449216B321585B9400EB27DC /* GameScene.swift */,
@@ -244,9 +247,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449216E62158771300EB27DC /* Level-2.sks in Resources */,
 				449216E221585C6B00EB27DC /* Smashing-Things.atlas in Resources */,
 				449216B921585B9400EB27DC /* Main.storyboard in Resources */,
-				449216B021585B9400EB27DC /* GameScene.sks in Resources */,
+				449216B021585B9400EB27DC /* Level-1.sks in Resources */,
 				449216BB21585B9500EB27DC /* Assets.xcassets in Resources */,
 				449216BE21585B9500EB27DC /* LaunchScreen.storyboard in Resources */,
 				449216B221585B9400EB27DC /* Actions.sks in Resources */,
